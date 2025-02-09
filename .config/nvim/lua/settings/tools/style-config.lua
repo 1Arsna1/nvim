@@ -6,6 +6,7 @@ local config = {
 		"bash",
 		"fish",
 		"css",
+		"gdscript",
 	},
 	lint = {
 		linters_by_ft = {
@@ -14,6 +15,7 @@ local config = {
 			-- jsonc = { "biomejs" },
 			bash = { "shellharden" },
 			css = { "stylelint" },
+			gdscript = { "gdlint" },
 		},
 	},
 	conform = {
@@ -23,6 +25,7 @@ local config = {
 			jsonc = { "biome" },
 			bash = { "shellharden" },
 			css = { "prettierd" },
+			gdscript = { "gdformat" },
 		},
 	},
 }
